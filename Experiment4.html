@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Aunik Sachan Experiment 5</title>
+    </head>
+    <body><p>
+                <!--Personal information-->
+        <form action="#" method="post">
+            <h2 align="center">Hotel Room Booking Form</h2>
+            <fieldset><legend>Personal information</legend>
+            <p >
+                 <label for="Name">Full Name:</label>
+            <input type="Text" id="Name" id="Name" name="Name" required>
+            </p>
+           <p>
+                <label for="email:">Email:</label>
+            <input type="email" id="email" id="Email" name="Email" required>
+            </p>
+           <p>
+           <label for="phone">Phone:</label>
+           <input type="tel" id="phone" name="phone"required>
+           </p>
+           </fieldset>
+           
+            <!--Booking details -->
+            <fieldset><legend>Booking information</legend>
+            <label for="Checkin">Check-in-date:</label>
+            <input type="date" id="Checkin" id="Checkin" name="checkin" required>
+             <br><br>
+            <label for="checkout">Check-out-date</label>
+            <input type="date" id="checkout" id="checkout" name="checkout" required>
+            <br><br>
+            <label for="guest">No. of guests:</label>
+            <input type="number" id="guest" id="guest" name="guest" min="1" max="10" required>
+            <br><br>
+            <label for="room">Room type:</label>
+            <select id="room" id="room" name="room">
+                <option value="">type of rooms</option>
+                <option value="single">single</option> 
+                <option value="double">double</option>
+                <option value="suite">suite</option> 
+            </select>
+            </fieldset>
+            <br><br><fieldset><legend>Special services</legend>
+            <label for="request"> Special Request</label>
+            <textarea id="requests" name="requests" rows="4"cols="50"></textarea>
+            <br><br>
+            </fieldset>
+            <br><br>
+            <!--Buttons-->
+            <button type="submit">Book now</button>
+            <button type="Reset">Reset</button>
+         </p>
+        </form>
+    </body>
+</html>
