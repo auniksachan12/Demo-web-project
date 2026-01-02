@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Dark Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+
+<div class="logo">
+    <a href="https://www.youtube.com" target="_blank" class="logo">
+    <span class="logo-icon">▶</span>
+    <span class="logo-text">YouTube</span>
+    </a>
+</div>
+
+
+    <div class="search-box">
+        <input type="text" placeholder="Search" class="search">
+        <button class="search-btn">🔍</button>
+    </div>
+
+    <div class="header-icons">
+        <button class="icon-btn" title="Create">➕</button>
+        <button class="icon-btn" title="Notifications">🔔</button>
+        <a href="#login" class="login-btn">Sign In</a>
+    </div>
+
+</header>
+
+
+
+<!-- LOGIN / SIGNUP -->
+<div id="login" class="auth-container">
+    <div class="auth-box">
+        <a href="#" class="close">✖</a>
+
+        <input type="radio" name="tab" id="login-tab" checked>
+        <input type="radio" name="tab" id="signup-tab">
+
+        <div class="tabs">
+            <label for="login-tab">Login</label>
+            <label for="signup-tab">Sign Up</label>
+        </div>
+
+        <form class="form login-form">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Login</button>
+        </form>
+
+        <form class="form signup-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Create Account</button>
+        </form>
+    </div>
+</div>
+
+<!-- MAIN -->
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+    <div class="menu">
+        <a href="#" class="menu-item active">
+            <span class="icon">🏠</span>
+            <span class="text">Home</span>
+        </a>
+
+        <a href="#" class="menu-item">
+            <span class="icon">🎬</span>
+            <span class="text">Shorts</span>
+        </a>
+
+        <a href="#" class="menu-item">
+            <span class="icon">📺</span>
+            <span class="text">Subscriptions</span>
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="menu">
+        <a href="#" class="menu-item">
+            <span class="icon">📚</span>
+            <span class="text">Library</span>
+        </a>
+    </div>
+
+</aside>
+
+
+    <!-- VIDEOS -->
+    <main class="videos">
+
+        <!-- 1 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=1">
+                    <div>
+                        <h3>HTML Full Course</h3>
+                        <p>Programming Hub</p>
+                        <span>1.2M views • 1 year ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 2 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/yfoY53QXEnI/maxresdefault.jpg">
+                    <span class="duration">18:20</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=5">
+                    <div>
+                        <h3>CSS Complete Tutorial</h3>
+                        <p>Web Dev</p>
+                        <span>850K views • 8 months ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 3 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg">
+                    <span class="duration">1:00:05</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=10">
+                    <div>
+                        <h3>JavaScript in One Video</h3>
+                        <p>Code Academy</p>
+                        <span>2.4M views • 2 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 4 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/kUMe1FH4CHE/maxresdefault.jpg">
+                    <span class="duration">1:30:45</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=15">
+                    <div>
+                        <h3>Python Full Course</h3>
+                        <p>freeCodeCamp.org</p>
+                        <span>5.6M views • 3 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 5 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=3JluqTojuME" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/3JluqTojuME/maxresdefault.jpg">
+                    <span class="duration">25:10</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=12">
+                    <div>
+                        <h3>React JS Crash Course</h3>
+                        <p>Traversy Media</p>
+                        <span>980K views • 6 months ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 6 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=l482T0yNkeo" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/l482T0yNkeo/maxresdefault.jpg">
+                    <span class="duration">7:05</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=22">
+                    <div>
+                        <h3>Best Coding Music</h3>
+                        <p>Chill Beats</p>
+                        <span>2.1M views • 1 year ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 7 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg">
+                    <span class="duration">4:13</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=18">
+                    <div>
+                        <h3>Most Viewed Video Ever</h3>
+                        <p>Music World</p>
+                        <span>12B views • 10 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 8 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg">
+                    <span class="duration">3:33</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=30">
+                    <div>
+                        <h3>Never Gonna Give You Up</h3>
+                        <p>Rick Astley</p>
+                        <span>1.5B views • 14 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 9 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg">
+                    <span class="duration">4:26:52</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=25">
+                    <div>
+                        <h3>Python for Beginners</h3>
+                        <p>freeCodeCamp.org</p>
+                        <span>10M views • 4 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 10 -->
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4" target="_blank">
+                <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/HcOc7P5BMi4/maxresdefault.jpg">
+                    <span class="duration">15:00</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-img" src="https://i.pravatar.cc/40?img=28">
+                    <div>
+                        <h3>Web Development Roadmap</h3>
+                        <p>Apna College</p>
+                        <span>3.8M views • 2 years ago</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
